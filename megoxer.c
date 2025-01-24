@@ -14,7 +14,7 @@
 #include <libgen.h>
 
 #define BUFFER_SIZE 9000
-#define EXPIRATION_YEAR 2025
+#define EXPIRATION_YEAR 2027
 #define EXPIRATION_MONTH 1
 #define EXPIRATION_DAY 20
 #define DEFAULT_THREADS 900
