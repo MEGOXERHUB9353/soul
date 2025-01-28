@@ -8,7 +8,7 @@ from telebot import types
 from pymongo import MongoClient
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('8041609126:AAHHD58XWDzHbOrKjDdZ9BjiyyAfg0WsWBw')
+bot = telebot.TeleBot('8041609126:AAHe3NOeEZOtp82ZH1qvjsm_2NLXNY3SlVQ')
 
 # MongoDB Connection
 MONGO_URI = "mongodb+srv://private:private6804@private.pydws.mongodb.net/?retryWrites=true&w=majority&appName=private"
